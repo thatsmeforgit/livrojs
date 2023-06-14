@@ -1,0 +1,13 @@
+<meta charset="utf-8">
+<script>
+    /*
+    Exercício 1c - Calculando o valor com 10% de desc. e em 3x
+    */
+   // lê os dados
+   var valorProduto = Number(prompt("Valor do produto: R$"));
+   // calculando 10% desc. e 3x
+   var desconto = valorProduto - (valorProduto * 0.10);
+   var parcelado = valorProduto / 3;
+   // exibindo o resultado
+   alert("Preço à vista: R$" + valorProduto.toFixed(2) + "\nPreço c/ desconto de 10%: R$" + desconto.toFixed(2) + "\nPreço parcelado em 3x: R$" + parcelado.toFixed(2));
+</script>
